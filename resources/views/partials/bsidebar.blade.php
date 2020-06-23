@@ -9,7 +9,7 @@
         </div>
         <div class="dropdown align-self-center profile-dropdown-menu">
             <a class="dropdown-toggle mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false"
-                aria-expanded="false">
+               aria-expanded="false">
                 <span data-feather="chevron-down"></span>
             </a>
             <div class="dropdown-menu profile-dropdown">
@@ -18,7 +18,7 @@
                     <span>My Account</span>
                 </a>
 
-                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                <a href="{{route('settings')}}" class="dropdown-item notify-item">
                     <i data-feather="settings" class="icon-dual icon-xs mr-2"></i>
                     <span>Settings</span>
                 </a>
@@ -85,7 +85,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/backend/settings">
+                    <a href="{{route('settings')}}">
                         <i data-feather="book"></i>
                         <span> Settings </span>
                     </a>

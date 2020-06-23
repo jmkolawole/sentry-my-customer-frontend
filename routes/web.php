@@ -96,7 +96,7 @@ Route::get('/backend/analytics', function () {
 })->name('analytics');
 
 
-// settings
+// settings Page
 Route::get('/backend/settings', function () {
     return view('backend.settings.settings');
-});
+})->name('settings');
